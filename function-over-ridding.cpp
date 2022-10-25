@@ -24,6 +24,6 @@ int main() {
 
     // access print() function of the Base class
     derived2.Base::print();
-
+cout<<"Function overloading program is sucessfully complited"<<endl;
     return 0;
 }
