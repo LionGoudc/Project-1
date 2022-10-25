@@ -2,6 +2,9 @@
 using namespace std;
 
 int main() {
+ int a=10;
+  int b=20;
+  int c=30;
 
   int first_number, second_number, sum;
     
@@ -12,7 +15,8 @@ int main() {
   sum = first_number + second_number;
 
   // prints sum 
-  cout << first_number << " + " <<  second_number << " = " << sum;     
+  cout << first_number << " + " <<  second_number << " = " << sum<<endl;     
+  cout<<"addition ="<<(a+b+c)<<endl;
 
   return 0;
 }
